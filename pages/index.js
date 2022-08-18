@@ -18,10 +18,8 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/bio'
+
 import { IoLogoGithub } from 'react-icons/io5'
-import { IoLogoLinkedin } from '/public/images/linkedin.svg'
-import { SocialIcon } from 'react-social-icons'
 
 const Page = () => {
   return (

@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbBAthesis from '../public/images/ba-thesis-thumbnail.jpg'
@@ -18,8 +18,8 @@ const Works = () => {
               title="Bachelors Thesis"
               thumbnail={thumbBAthesis}
             >
-              My BA-thesis in computer science titled "Multilingual text robots
-              for abstract wikipedia".
+              My BA-thesis in computer science titled &quot;Multilingual text
+              robots for abstract wikipedia&ldquo;.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
