@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"..\\components\\layouts\\main.js -> ../voxel-dog":{id:6430,files:["static/chunks/fb7d5399.ac8d1362697df956.js","static/chunks/330.2aeae54317b9b4bf.js","static/chunks/430.6c67fb704c3c19a5.js"]}}
