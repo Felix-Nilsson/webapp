@@ -19,7 +19,12 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>PDF</Meta>
-          <Link>
+          <Link
+            href="/ba-thesis.pdf"
+            alt="BA-thesis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Multilingual text robots for abstract wikipedia
             <ExternalLinkIcon mx="2px" />
           </Link>
@@ -30,8 +35,15 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/ba-thesis-thumbnail.jpg" alt="Inkdrop" />
-      <WorkImage src="/images/works/ba-thesis-thumbnail2.jpg" alt="Inkdrop" />
+      <WorkImage src="/images/works/ba-thesis-thumbnail.jpg" alt="Title page" />
+      <WorkImage
+        src="/images/works/ba-thesis-thumbnail2.jpg"
+        alt="Theory page"
+      />
+      <WorkImage
+        src="/images/works/ba-thesis-thumbnail3.jpg"
+        alt="Results page"
+      />
     </Container>
   </Layout>
 )
