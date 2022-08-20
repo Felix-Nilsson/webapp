@@ -16,17 +16,19 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js'
+import { IoLogoGithub } from 'react-icons/io5'
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ href, path, children, target }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
 
   return (
-    <NextLink href={href}>
+    <NextLink href={href} passHref>
       <Link
         p={2}
         bg={active ? 'glassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
+        target={target}
       >
         {children}
       </Link>
@@ -71,6 +73,18 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/Felix-Nilsson/webapp"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            Source
+            <IoLogoGithub />
+          </LinkItem>
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -89,9 +103,13 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/source" passHref>
-                  <MenuItem as={Link}>View Source</MenuItem>
-                </NextLink>
+
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/Felix-Nilsson/webapp"
+                >
+                  View Source
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
