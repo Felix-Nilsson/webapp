@@ -18,7 +18,8 @@ import NextLink from 'next/link'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { AiOutlineMail } from 'react-icons/ai'
 
 const Page = () => {
   return (
@@ -111,7 +112,18 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/Felix-Nilsson">
+              <Link href="mailto:felix.nilsson.se@gmail.com">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={AiOutlineMail} />}
+                >
+                  felix.nilsson.se@gmail.com
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://github.com/Felix-Nilsson" isExternal="true">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
@@ -122,9 +134,16 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.linkedin.com/in/felix-nilsson-20a0151b5/">
-                <Button variant="ghost" colorScheme="teal">
-                  LinkedIn: Felix Nilsson
+              <Link
+                href="https://www.linkedin.com/in/felix-nilsson-20a0151b5/"
+                isExternal="true"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  Felix Nilsson
                 </Button>{' '}
               </Link>
             </ListItem>
