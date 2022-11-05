@@ -13,6 +13,12 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="images/favicon-32x32.png"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Felix Nilsson - Homepage</title>
       </Head>
