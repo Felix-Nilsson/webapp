@@ -12,8 +12,10 @@ const Work = () => (
       </Title>
       <P>
         For the course &quot;DAT257 Agile Software project management&ldquo; me
-        and some other students built a booking system for university committee.
-        It was successfully used during the fall reception.
+        and some other students built a booking system for the university
+        reception committee. It was successfully used during the fall reception
+        by committees specific to programs at chalmers to book locations for
+        activities.
       </P>
       <List ml={4} my={4}>
         <ListItem>
