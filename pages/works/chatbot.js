@@ -11,7 +11,7 @@ const Work = () => (
         Booking System <Badge>2021</Badge>
       </Title>
       <P>
-      As part of AI Sweden's "GPT Summer Internship" 
+      As part of AI Sweden&apos;s &quot;GPT Summer Internship&ldquo;
       for the summer of 2023, our group collaborated with VGR (Sahlgrenska University Hospital) 
       in Gothenburg to build a proof of concept of using LLMs in a healthcare context.
       To this end we implemented <Link
