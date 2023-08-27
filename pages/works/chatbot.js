@@ -14,7 +14,7 @@ const Work = () => (
       As part of AI Sweden's "GPT Summer Internship" 
       for the summer of 2023, our group collaborated with VGR (Sahlgrenska University Hospital) 
       in Gothenburg to build a proof of concept of using LLMs in a healthcare context.
-      To achieved this we implemented <Link
+      To this end we implemented <Link
             href="https://www.pinecone.io/learn/retrieval-augmented-generation/"
             alt="pinecone:retrieval-augmented-generation"
             isExternal

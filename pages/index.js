@@ -87,13 +87,20 @@ const Page = () => {
             Work
           </Heading>
           <BioSection>
-            <BioYear>2021</BioYear>
-            Internship, Monitoring using Grafana - Volvo
+            <BioYear>2023</BioYear>
+            Internship, Healthcare Chatbot using OpenAI-API - AI Sweden
           </BioSection>
+
           <BioSection>
             <BioYear>2022</BioYear>
             Internship, Data Analysis using Azure - Volvo
           </BioSection>
+
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Internship, Monitoring using Grafana - Volvo
+          </BioSection>
+
         </Section>
 
         <Section delay={0.1}>
