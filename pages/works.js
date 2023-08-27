@@ -4,6 +4,8 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbBAthesis from '../public/images/ba-thesis-thumbnail.jpg'
 import Layout from '../components/layouts/article'
 import thumbBooking from '../public/images/booking-thumbnail.jpg'
+import thumbMAIH from '../public/images/MAIH.png'
+
 //needs to have working heading
 const Works = () => {
   return (
@@ -13,6 +15,16 @@ const Works = () => {
           My Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+            <WorkGridItem
+              id="chatbot"
+              title="Bachelors Thesis"
+              thumbnail={thumbMAIH}
+            >
+              A selection of healthcare chatbots built for Sahlgrenska University Hospital, 
+              during my internship at AI Sweden.
+            </WorkGridItem>
+          </Section>  
           <Section>
             <WorkGridItem
               id="ba-thesis"
