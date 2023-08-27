@@ -18,7 +18,7 @@ const Works = () => {
         <Section>
             <WorkGridItem
               id="chatbot"
-              title="Healthcare Chatbots"
+              title="Healthcare Chatbot"
               thumbnail={thumbMAIH}
             >
               A healthcare chatbot built for Sahlgrenska University Hospital, 
