@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Chatbot">
     <Container>
       <Title>
-        Booking System <Badge>2021</Badge>
+        Chatbot <Badge>2023</Badge>
       </Title>
       <P>
       As part of AI Sweden&apos;s &quot;GPT Summer Internship&ldquo;
