@@ -88,7 +88,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2023</BioYear>
-            Internship, Healthcare Chatbot using OpenAI-API - AI Sweden
+            Internship, Chatbot using GPT-3.5 - AI Sweden
           </BioSection>
 
           <BioSection>
@@ -109,8 +109,9 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Hi! My name is Felix, and I am a 22 year old student studying
-            software engineering and computer science, based in Gothenburg,
-            Sweden. On my free time I enjoy esports, music and working out.
+            computer science, based in Gothenburg, Sweden. My main focus areas
+            are algorithms and AI. Want to get in touch? Contact me at one of
+            the links below:
           </Paragraph>
         </Section>
         <Section delay={0.3}>
