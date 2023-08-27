@@ -73,7 +73,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem
+            <LinkItem
             target="_blank"
             href="https://github.com/Felix-Nilsson/webapp"
             path={path}
@@ -83,8 +83,9 @@ const Navbar = props => {
             pl={2}
           >
             Source
-            <IoLogoGithub />
           </LinkItem>
+          <IoLogoGithub />
+          
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
