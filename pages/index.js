@@ -88,7 +88,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2023</BioYear>
-            Internship, Chatbot using GPT-3.5 - AI Sweden
+            Internship, Healthcare Chatbot - AI Sweden
           </BioSection>
 
           <BioSection>
