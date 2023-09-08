@@ -70,21 +70,22 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
+          
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-            <LinkItem
+          
+          <LinkItem
             target="_blank"
-            href="https://github.com/Felix-Nilsson/webapp"
+            href="/CV_SPRING_2023_EN.pdf"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            Source
+            CV
           </LinkItem>
-          <IoLogoGithub />
           
         </Stack>
         <Box flex={1} align="right">
