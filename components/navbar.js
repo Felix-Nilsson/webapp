@@ -71,7 +71,7 @@ const Navbar = props => {
         >
           
           <LinkItem href="/works" path={path}>
-            Works
+          💡 Works
           </LinkItem>
           
           <LinkItem
@@ -83,7 +83,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            CV
+            📋 CV
           </LinkItem>
           
         </Stack>

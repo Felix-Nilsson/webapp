@@ -32,7 +32,7 @@ const Page = () => {
           align="center"
           mb={5}
         >
-          Hi! I am a computer science student based in Sweden
+          👋 Hi! I am a computer science student based in Sweden
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -40,8 +40,8 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Felix Nilsson
             </Heading>
-            <p>Programming &</p>
-            <p>Computer Science</p>
+            <p>Algorithms &</p>
+            <p>Artificial Intelligence</p>
           </Box>
           <Box
             flexShrink={0}
@@ -111,7 +111,7 @@ const Page = () => {
             Hi! My name is Felix, and I am a 22 year old student studying
             computer science, based in Gothenburg, Sweden. My main focus areas
             are algorithms and AI. Want to get in touch? Contact me at one of
-            the links below:
+            the links below 👇:
           </Paragraph>
         </Section>
         <Section delay={0.3}>
