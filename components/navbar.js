@@ -76,7 +76,7 @@ const Navbar = props => {
           
           <LinkItem
             target="_blank"
-            href="/CV_SPRING_2023_EN.pdf"
+            href="/CV_SPRING_2024_EN.pdf"
             path={path}
             display="inline-flex"
             alignItems="center"
